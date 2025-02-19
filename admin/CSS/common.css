@@ -1,0 +1,72 @@
+
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+    .h-font {
+      font-family: 'Merienda', cursive;
+    }
+    .d-block {
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+      padding-top: 1%;
+    }
+    .rm {
+      margin-left: 30%;
+      background-color: transparent;
+      margin-top: 10px;
+      animation-name: title;
+      animation-direction: alternate;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    .custom-bg {
+      background-color: #27e3c7;
+    }
+    .custom-bg:hover {
+      background-color: #22c7ae;
+    }
+    .h-line{
+      width: 100px;
+      margin: 0 auto;
+      height: 1.7px;
+    }
+    .custom-alert{
+      position: fixed;
+      top: 25px;
+      right: 25px;
+    }
+
+    @keyframes title {
+      from {
+        margin-left: 1%;
+      }
+
+      to {
+        margin-left: 55%;
+      }
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+      .rm, .rm1 {
+        height: 80px;
+        margin: auto;
+      }
+
+      .tb3,.tb5,.tb6{
+        display: none;
+    }
+      @keyframes title {
+        from {
+          margin-left: 1%;
+        }
+
+        to {
+          margin-left: 13%;
+        }
+      }
+
+      .d-block {
+        margin: auto;
+      }
+    }
