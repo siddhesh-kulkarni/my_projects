@@ -7,3 +7,4 @@ upload latest in suvi website
 use nextjs and nodejs for suvi instrument website 
 project 
 new projects
+demo projects
