@@ -8,3 +8,4 @@ use nextjs and nodejs for suvi instrument website
 suvi admin dashboard by bolt
 use psql for backend also use prisma 
 yup
+project for paypal
